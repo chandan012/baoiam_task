@@ -1,0 +1,308 @@
+*{
+   margin: 0%;
+   padding: 0%
+    
+}
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: #DDA0DD;
+    padding: 18px;
+    color: darkmagenta;
+    
+}
+.feature{
+    display: flex;
+}
+.feature .app{
+    display: flex;
+    margin-inline: 22px;
+}
+.feature .app .i{
+    margin-inline: 8px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: #FBAED2;
+}
+.sec-nav ul li img{
+    width: 8%;
+    margin-left: 22px;
+}
+.sec-nav ul li a{
+    margin-inline: 22px;
+}
+.sec-nav .inputs{
+    display: flex
+}
+.sec-nav .inputs button{
+    margin-inline:22px ;
+}
+.sec-nav .inputs input{
+    width: 200px;
+    height:40px;
+    background-color: hsl(279, 44%, 75%);
+    border: none;
+    outline: none;
+    text-align: center;
+    
+    font-size: 16px;
+
+}
+.sec-nav .inputs button{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(214, 61, 191);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 8px;
+    background-color:  #FBAED2;
+}
+.items ul li a{
+    list-style: none;
+    margin-inline: 22px;
+    text-align: center;
+    
+}
+.items ul li button{
+    width: 100px;
+    height: 34px;
+    background-color: rgb(214, 61, 191);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius:5px;
+}
+.items ul li{
+    list-style: none;
+}
+.main-page img{
+    width: 100%;
+}
+.pink img{
+    width: 100%;
+}
+.pink h2{
+    text-align: center;
+    padding: 7px;
+    color: whitesmoke;
+    background-color: darkmagenta;
+
+
+}
+
+    
+
+
+.brand h2{
+    text-align: center;
+}
+.crad{
+    display: flex;
+    justify-content: center;
+    justify-content:space-around ;
+    margin-top: 33px;
+}
+.card img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.brand h2{
+    text-align: center;
+    padding: 22px;
+
+}
+.topbrd{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.topbrd img{
+    margin-inline: 22px;
+    width: 44%;
+    height: 280px;
+}
+.onli-nykaa h2{
+    text-align: center;
+    padding: 22px;
+}
+.onli-nykaa .only{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.only img{
+    width: 30%;
+    height: 280px;
+    margin-inline: 22px;
+}
+.makeup{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 42px;
+}
+.makeup img{
+    width: 22%;
+    margin-inline: 18px;
+}
+.special h2{
+    text-align: center;
+    padding: 22px;
+}
+.special .curation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.curation img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.beauty h2{
+    text-align: center;
+    padding: 22px;
+}
+.beauty .advice{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.advice img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(152, 147, 147);
+}
+.footer .list{
+    flex-direction: column;
+}
+.footer .list ul li {
+    list-style:none ;
+}
+.footer .list ul li a{
+    font-weight:600 ;
+    font-size: 13px;
+}
+.footer .list ul li h2{
+    font-size: 18px;
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 80%;
+    padding-top: 50%;
+    background-color: white;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 5px;
+  background: #fff;
+
+  /* border-radius: 8px; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  /* height: 180%; */
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+  
+
+}
+
+.swiper-slide-demo img {
+  display: block;
+  width: 90%;
+  height: 80%;
+  object-fit:cover;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('alaska.webp');
+}
+
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 85%;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.swiper-button-prev{
+  padding-top: 2px;
+  padding-right: 40%; 
+    color: pink;
+}
+.swiper-button-next{
+  padding-top: 2px;
+    color: #fff;
+}
+
+.mypadding{
+  
+    padding-top: 200px;
+    padding-bottom: 100px;
+    /* padding-left: 0%; */
+}
+
+#button1{
+        background-color: rgb(214, 61, 191);;
+        border: none;
+        color: white;
+        padding: 8px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+      width: 90px;
+      height: 37px;
+
+      /* padding-left: 20px; */
+}
+
+#button1:hover {
+    background-color: darkmagenta;
+    color: white;
+  }
